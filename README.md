@@ -1,8 +1,10 @@
-# Full-Stack Wedding
+# Wedding Application
 
-### Customize configuration
+### Configuration
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+See [Vue Firebase Authentication](https://learnvue.co/articles/vue-firebase-authentication).
 
 ### Project Setup
 
