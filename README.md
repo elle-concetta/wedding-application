@@ -50,8 +50,8 @@ firebase init
 firebase deploy
 ```
 
-#### *Run Unit Tests with [Vitest](https://vitest.dev/)*
+#### *Run Deploy*
 
 ```sh
-npm run test:unit
+npm run deploy
 ```
