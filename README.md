@@ -27,10 +27,27 @@ npm install
 npm run dev
 ```
 
+#### *Install Firebase*
+```sh
+npm install firebase
+```
+
+```sh
+firebase login
+```
+
 #### *Compile and Minify for Production*
 
 ```sh
 npm run build
+```
+
+```sh
+firebase init
+```
+
+```sh
+firebase deploy
 ```
 
 #### *Run Unit Tests with [Vitest](https://vitest.dev/)*
