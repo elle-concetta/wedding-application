@@ -45,7 +45,18 @@ export default {
 </template>
 <style scoped>
 @import url('https://use.typekit.net/fyp0lzh.css');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+@font-face {
+  font-family: 'Mier A';
+  src: url('src/assets/mier/MierA-Regular.eot');
+  src: local('Mier A Regular'), local('MierA-Regular'),
+  url('src/assets/mier/MierA-Regular.eot?#iefix') format('embedded-opentype'),
+  url('src/assets/mier/MierA-Regular.woff2') format('woff2'),
+  url('src/assets/mier/MierA-Regular.woff') format('woff'),
+  url('src/assets/mier/MierA-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
   .subtitle{
   font-family: "freight-big-pro", serif !important;
@@ -62,22 +73,19 @@ export default {
   }
 
   .subtitle-tgl{
-  font-family: "aktiv-grotesk-extended", sans-serif !important;
-  font-weight: 300;
+  font-family: "Mier A", sans-serif !important;
   font-style: normal;
   font-size: medium;
   }
 
   .text{
-  font-family: "aktiv-grotesk-extended", sans-serif !important;
-  font-weight: 300;
+  font-family: "Mier A", sans-serif !important;
   font-style: normal;
   font-size: large;
   }
 
 .invitation-text{
-  font-family: "aktiv-grotesk-extended", sans-serif !important;
-  font-weight: 300;
+  font-family: "Mier A", sans-serif !important;
   font-style: normal;
   font-size: medium;
 }
