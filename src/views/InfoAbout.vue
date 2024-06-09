@@ -8,28 +8,29 @@ const redirectToLocation = (location) => {
 };
 </script>
 <template>
-    <section class="card" id="info">
+    <section class="card" id="info" >
         <div class="container">
             <div class="col">
-                <div class="h2">Wedding Information</div>
+                <div class="h1" style="padding-bottom: 20px;">Wedding Information</div>
                 <div class="description-date">
+              
                     <table>
                     <tr>
-                        <th>Dates and Events </th>
-                        <td>Friday, November 7, 2025 | Welcome Party and Catholic Ceremony</td>
-                        <td>Saturday, November 8, 2025 | Hindu Ceremony and Reception</td>
+                        <h3>DATES AND EVENTS </h3>                   
+                        <p>Friday, November 7, 2025 | Welcome Party and Catholic Ceremony</p>                        
+                        <p>Saturday, November 8, 2025 | Hindu Ceremony and Reception</p>
                     </tr>
                     <tr>
-                        <th>Event Times </th>
-                        <td>Welcome Party and Mehndi | </td>
-                        <td>Catholic Ceremony | </td>
-                        <td>Hindu Ceremony | </td>
-                        <td>Reception | </td>
+                        <h3>EVENT TIMES </h3>
+                        <p>Welcome Party and Mehndi | </p>
+                        <p>Catholic Ceremony | </p>
+                        <p>Hindu Ceremony | </p>
+                        <p>Reception | </p>
                     </tr>
                     <tr>
-                        <th>Venue Location</th>
-                        <td>Resort </td>
-                        <td>Clearwater, FL</td>
+                        <h3>VENUE LOCATION</h3>
+                        <p>Resort </p>
+                        <p>Florida</p>
                     </tr>
                 </table>
                 </div>
@@ -37,17 +38,17 @@ const redirectToLocation = (location) => {
             <div class="col">
                 <div class="google-maps btn">
                     <div class="btn-icon">
-                        <FontAwesomeIcon :icon="faLocationDot"/>
+                        <FontAwesomeIcon :icon="faLocationDot" style="font-size: 16px;" />
                     </div>
                     <div class="btn-title">
-                        <button @click="redirectToLocation('https://maps.app.goo.gl/q8JBgodBRULWDyyeA')" >Wedding Location</button>
+                        <button @click="redirectToLocation('https://maps.app.goo.gl/x7m6mCvsL9WKEgxd9')" >Wedding Location</button>
                     </div>
                     
                 </div>
             </div>
             <div class="col">
                 <div class="description">
-                  <p>Book Hotel Reservations: Hotel 1 and Hotel 2</p>
+                  <p>Book Hotel Reservations: Hotel 1, Hotel 2, and Hotel 3</p>
                 </div>
             </div>
             <div class="col">
@@ -103,6 +104,7 @@ p {
   font-family: "Mier A", sans-serif !important;
   font-weight: normal;
   font-style: normal;
+  font-size: medium;
 }
 
 figcaption > p {
@@ -110,12 +112,30 @@ figcaption > p {
   font-weight: normal;
   font-style: normal;
   text-shadow: #92400e 1px 0 10px;
+  font-size: medium;
 }
 
-h2 {
+h2, h3 {
   font-family: "Mier A Demi", sans-serif !important;
   font-weight: normal;
   font-style: normal;
+  font-size: large;
+}
+
+button {
+  font-family: "Mier A", sans-serif !important;
+  font-weight: normal;
+  font-style: normal;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 8px; /* Space between icon and text */
 }
 
 .site-title > p::before {

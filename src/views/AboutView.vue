@@ -29,8 +29,8 @@ import InfoAbout from './InfoAbout.vue';
             <p class="name-groom">Son of Mahattej & Jolly Amin</p>
             <p class="name-groom">Brother of Mayank Amin</p>
             <p class="name-groom">Our journey took a beautiful turn on August 28, 2021. That was the day
-              of our first date at Wonderland in downtown Raleigh, NC. From that moment on, we became 
-              inseparable, creating countless memories together.</p>
+              of our first date in downtown Raleigh, NC. From that moment on, we became inseparable, 
+              creating countless memories together.</p>
           </div>
         </div>
         <div class="icon-bg">
@@ -43,8 +43,8 @@ import InfoAbout from './InfoAbout.vue';
           <div class="mpw-description">
             <h1 class="bg-name name-bride">Elizabeth Concetta Fassler</h1>
             <p class="name-bride">Daughter of Bernie Fassler & Amy Eppers</p>
-            <p class="name-bride">We traveled to Mexico, Greece, and Italy together. Then, on March 9, 2024, 
-              in the enchanting setting of Lake Como, Italy, at Villa Olmo, Ankit proposed.</p>
+            <p class="name-bride">We traveled to Mexico, Greece, and Italy together. Then, on March 9, 2024 
+              in the enchanting setting of Lake Como, Italy at Villa Olmo, Ankit proposed.</p>
           </div>
         </div>
       </div>
