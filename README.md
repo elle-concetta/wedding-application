@@ -46,10 +46,6 @@ npm run build
 firebase init
 ```
 
-```sh
-firebase deploy
-```
-
 #### *Run Deploy*
 
 ```sh
