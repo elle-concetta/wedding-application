@@ -42,10 +42,6 @@ firebase login
 npm run build
 ```
 
-```sh
-firebase init
-```
-
 #### *Run Deploy*
 
 ```sh
