@@ -23,9 +23,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "deploy": "gh-pages -d dist",
     "preview": "vite preview",
     "test:unit": "vitest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "tailwind": "tailwindcss -i ./src/assets/main.css -o ./src/assets/styles.css --watch"
   },
   "dependencies": {
