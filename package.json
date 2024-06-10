@@ -1,6 +1,6 @@
 {
   "name": "fullstack-wedding",
-  "homepage": "https://ankitandelle.com/",
+  "homepage": "https://ankitandelle.com",
   "version": "1.4.4",
   "private": true,
   "type": "module",
@@ -24,6 +24,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "deploy": "gh-pages -d dist",
     "test:unit": "vitest",
     "tailwind": "tailwindcss -i ./src/assets/main.css -o ./src/assets/styles.css --watch"
   },
