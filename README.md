@@ -48,6 +48,8 @@ npm run build
 npm run deploy
 ```
 
+See [Vite Static Deploy Reference]([https://vitejs.dev/config/](https://vitejs.dev/guide/static-deploy.html]).
+
 Create a file called `.gitlab-ci.yml` in the root of your project with the content below. This will build and deploy your site whenever you make changes to your content:
 ```
 image: node:16.5.0
