@@ -72,3 +72,14 @@ pages:
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
 ```
+
+If any depracations during `npm install`, run the following commands:
+```sh
+# Update all packages to the latest version based on the version ranges specified in package.json
+npm update
+
+# Upgrade all packages to their latest versions, ignoring the version ranges specified in package.json
+npm install -g npm-check-updates
+ncu -u
+npm install
+```
