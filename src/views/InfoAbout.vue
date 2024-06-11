@@ -11,7 +11,7 @@ const redirectToLocation = (location) => {
     <section class="card" id="info" >
         <div class="container">
             <div class="col">
-                <div class="h1" style="padding-bottom: 20px;">Wedding Information</div>
+                <h1> <div style="padding-bottom: 20px;">Wedding <i>Information</i></div></h1>
                 <div class="description-date">
               
                     <table>
@@ -114,6 +114,13 @@ figcaption > p {
   text-shadow: #92400e 1px 0 10px;
   font-size: medium;
 }
+
+h1 {
+  text-align: center;
+  font-family: "freight-big-pro", serif !important;
+  font-size: 39px;
+}
+
 
 h2, h3 {
   font-family: "Mier A Demi", sans-serif !important;
