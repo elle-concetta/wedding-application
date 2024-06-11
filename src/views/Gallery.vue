@@ -2,7 +2,7 @@
     <section class="card" id="gallery">
         <div class="container">
             <div class="col ">
-                <h2 class="h2">Our Moments</h2>
+                <h2 class="h2"><i>Our</i> Moments</h2>
                 <h3>Capture the Love</h3>
                 <p>From our first date, adventurous trips, to our engagement.</p>
             </div>
@@ -36,7 +36,6 @@ const mainImage = ref('/public/img/gallery_eng-1.png');
 const images = [
   '/public/img/gallery_firstdate.jpg',
   '/public/img/gallery_bday.JPG',
-  '/public/img/gallery_tulum.jpg',
   '/public/img/gallery_cenotes.png',
   '/public/img/gallery_cenote2.png',
   '/public/img/gallery_athens.JPG',
@@ -92,14 +91,14 @@ watch(mainImage, () => {
 h2 {
   text-align: center;
   font-family: "freight-big-pro", serif !important;
-  font-size: x-large;
+  font-size: 39px;
 }
 
 h3 {
   text-align: center;
   font-family: "Mier A Demi", sans-serif !important;
   font-style: italic;
-  font-size: large;
+  font-size: x-large;
 }
 
 p {
