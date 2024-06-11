@@ -3,7 +3,6 @@
         <div class="container">
             <div class="col ">
                 <h2 class="h2"><i>Our</i> Moments</h2>
-                <h3>Capture the Love</h3>
                 <p>From our first date, adventurous trips, to our engagement.</p>
             </div>
           <div class="col">
@@ -42,6 +41,7 @@ const images = [
   '/public/img/gallery_grboat.jpg',
   '/public/img/gallery_mykonos.JPG',
   '/public/img/gallery_santorini.JPG',
+  '/public/img/pantheon-italy.JPG',
   '/public/img/eng-20.png'
 ];
 
