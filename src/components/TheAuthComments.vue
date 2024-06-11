@@ -1,7 +1,7 @@
 <template>
   <section class="card">
     <div class="container">
-      <h2>Wedding Chat and Greetings</h2>
+      <h2><i>Wedding Chat and Greetings</i></h2>
        <!-- Comment and Greetings Form-->
        <div class="py-4">
         <form @submit.prevent="addComment" class="max-w-xl mx-auto">
@@ -358,6 +358,7 @@ async deleteComment(commentId) {
 </script>
 <style scoped>
 @import url('https://use.typekit.net/fyp0lzh.css');
+
 @font-face {
   font-family: 'Mier A';
   src: url('src/assets/mier/MierA-Regular.eot');
@@ -370,18 +371,35 @@ async deleteComment(commentId) {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Mier A Demi';
+  src: url('src/assets/mier/MierA-DemiBold.eot');
+  src: local('Mier A DemiBold'), local('MierA-DemiBold'),
+  url('src/assets/mier/MierA-DemiBold.eot?#iefix') format('embedded-opentype'),
+  url('src/assets/mier/MierA-DemiBold.woff2') format('woff2'),
+  url('src/assets/mier/MierA-DemiBold.woff') format('woff'),
+  url('src/assets/mier/MierA-DemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
 h2 {
   text-align: center;
   font-family: "freight-big-pro", serif !important;
-  font-size: x-large;
+  font-size: 39px;
 }
 
 label {
   text-align: center;
-  font-family: "Mier A", sans-serif !important;
-  font-size: large;
-  font-weight: normal;
+  font-family: "Mier A Demi", sans-serif !important;
   font-style: normal;
+  font-size: large;
+}
+
+p {
+  text-align: center;
+  font-family: "Mier A", sans-serif !important;
+  font-size: medium;
 }
 
 .comment {

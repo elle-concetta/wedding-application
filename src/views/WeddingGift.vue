@@ -12,7 +12,7 @@ import { faGift, faFaceSmile } from '@fortawesome/free-solid-svg-icons';
   <section class="card" id="gifts">
     <div class="container">
       <div class="col">
-        <h2 class="h2">Wedding Registry</h2>
+        <h2 class="h2">Wedding <i>Registry</i></h2>
         <p>
           Our Amazon Wedding Registry below <FontAwesomeIcon :icon="faFaceSmile" class="icon-smile"/>
         </p>
@@ -23,14 +23,14 @@ import { faGift, faFaceSmile } from '@fortawesome/free-solid-svg-icons';
       </div>
       <div class="col">
         <button
-            onclick="window.location.href='https://www.amazon.com/wedding/share/ankit-and-elle';"
-            data-modal-target="popup-modal"
-            data-modal-toggle="popup-modal"
-            class="block rounded-lg outline outline-gray-800 outline-2 outline-offset-2 text-white bg-fuchsia-800 hover:bg-fuchsia-800 focus:ring-4 focus:outline-none focus:ring-fuchsia-300 font-medium text-sm px-4 py-2 text-center dark:bg-fuchsia-600 dark:hover:bg-fuchsia-700 dark:focus:ring-fuchsia-800"
-            type="button"
-        >
-          <FontAwesomeIcon :icon="faGift"/> Registry
-        </button>
+    onclick="window.location.href='https://www.amazon.com/wedding/share/ankit-and-elle';"
+    data-modal-target="popup-modal"
+    data-modal-toggle="popup-modal"
+    class="block rounded-lg outline outline-gray-800 outline-2 outline-offset-2 text-white bg-fuchsia-800 hover:bg-fuchsia-800 focus:ring-4 focus:outline-none focus:ring-fuchsia-300 font-medium text-sm px-4 py-2 text-center dark:bg-fuchsia-600 dark:hover:bg-fuchsia-700 dark:focus:ring-fuchsia-800"
+    type="button"
+  >
+    <FontAwesomeIcon :icon="faGift" /> Registry
+  </button>
       </div>
       </div>
   </section>
@@ -54,13 +54,14 @@ import { faGift, faFaceSmile } from '@fortawesome/free-solid-svg-icons';
 h2 {
   text-align: center;
   font-family: "freight-big-pro", serif !important;
-  font-size: x-large;
+  font-size: 39px;
 }
 
 p {
   font-family: "Mier A", sans-serif !important;
   font-weight: normal;
   font-style: normal;
+  font-size:large;
 }
 
 .copyable-text {

@@ -1,7 +1,8 @@
 <template>
   <div id="carousel" class="relative w-full" data-carousel="slide">
     <!-- Carousel wrapper -->
-    <div class="relative h-56 overflow-hidden rounded-lg md:h-125">
+    <div class="relative h-96 overflow-hidden rounded-lg md:h-[525px]">
+
       <!-- Item 1 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
         <img
