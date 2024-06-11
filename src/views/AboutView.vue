@@ -80,7 +80,7 @@ section {
 section, h2 {
   text-align: center;
   font-family: "freight-big-pro", serif !important;
-  font-size: xx-large;
+  font-size: 39px;
 }
 
 .fst-italic {
