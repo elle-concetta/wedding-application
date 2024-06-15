@@ -18,22 +18,22 @@
         <div class="w-full lg:w-2/3 lg:mx-auto">
           <div class="w-full px-4 mb-8">
             <label for="name" class="font-bold text-slate-600">Name</label>
-            <input type="text" v-model="formData.name" name="name" id="name" placeholder="Your Full Name" autofocus minlength="2" autocomplete="off" required
+            <input type="text" v-model="formData.name" name="Name" id="name" placeholder="Your Full Name" autofocus minlength="2" autocomplete="off" required
                    class="w-full bg-slate-200 text-slate-950 p-3 rounded-md focus:outline-none focus:ring-lime-600 focus:ring-1">
           </div>
           <div class="w-full px-4 mb-8">
             <label for="name" class="font-bold text-slate-600">Accompanying Invitees</label>
-            <input type="text" v-model="formData.accInvitees" name="accInvitees" id="accInvitees" placeholder="Names of Other Invitees on Your Invitation" autocomplete="off" required
+            <input type="text" v-model="formData.accInvitees" name="AccompanyingInvitees" id="accInvitees" placeholder="Names of Other Invitees on Your Invitation" autocomplete="off" required
                    class="w-full bg-slate-200 text-slate-950 p-3 rounded-md focus:outline-none focus:ring-lime-600 focus:ring-1">
           </div>
           <div class="w-full px-4 mb-8">
-            <label for="guests" class="font-bold text-slate-600">Number of Guests</label>
-            <input type="number" v-model="formData.guests" name="guests" id="guests" placeholder="Number of Guests" required autocomplete="off"
+            <label for="guests" class="font-bold text-slate-600">Guests</label>
+            <input type="number" v-model="formData.guests" name="Guests" id="guests" placeholder="Number of Guests" required autocomplete="off"
                    class="w-full bg-slate-200 text-slate-950 p-3 rounded-md focus:outline-none focus:ring-lime-600 focus:ring-1">
           </div>
           <div class="w-full px-4 mb-8">
             <label for="status" class="font-bold text-slate-600">Status</label>
-            <select v-model="formData.status" name="status" id="status" placeholder="Confirmation" required
+            <select v-model="formData.status" name="Status" id="status" placeholder="Confirmation" required
                     class="w-full h-18 bg-slate-200 text-slate-950 p-3 rounded-md focus:outline-none focus:ring-lime-600 focus:ring-1">
               <option value="Attend">Attend</option>
               <option value="Absent">Absent</option>

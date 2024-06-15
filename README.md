@@ -36,6 +36,11 @@ npm install firebase
 firebase login
 ```
 
+#### *Google Sheets and AppScript*
+```sh
+npm install googleapis
+```
+
 #### *Compile and Minify for Production*
 
 ```sh
