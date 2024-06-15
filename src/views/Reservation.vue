@@ -14,7 +14,7 @@
           <p> <span class="font-bold pl-2">Thank you!</span> Your message has been sent.</p>
         </div>
       </div>
-      <form @submit.prevent="submitForm" ref="form" name="submitTs" action="" method="POST">
+      <form @submit.prevent="submitForm" ref="form" name="submit" action="" method="POST">
         <div class="w-full lg:w-2/3 lg:mx-auto">
           <div class="w-full px-4 mb-8">
             <label for="name" class="font-bold text-slate-600">Name</label>
@@ -22,8 +22,8 @@
                    class="w-full bg-slate-200 text-slate-950 p-3 rounded-md focus:outline-none focus:ring-lime-600 focus:ring-1">
           </div>
           <div class="w-full px-4 mb-8">
-            <label for="name" class="font-bold text-slate-600">Accompanying Invitees</label>
-            <input type="text" v-model="formData.accompanyingInvitees" name="AccompanyingInvitees" id="accompanyingInvitees" placeholder="Names of Other Invitees on Your Invitation" autocomplete="off" required
+            <label for="accInvitees" class="font-bold text-slate-600">Accompanying Invitees</label>
+            <input type="text" v-model="formData.accInvitees" name="AccompanyingInvitees" id="accInvitees" placeholder="Names of Other Invitees on Your Invitation" autocomplete="off" required
                    class="w-full bg-slate-200 text-slate-950 p-3 rounded-md focus:outline-none focus:ring-lime-600 focus:ring-1">
           </div>
           <div class="w-full px-4 mb-8">
@@ -79,7 +79,7 @@ export default {
   methods: {
     submitForm() {
       this.loading = true;
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbzzXPl5OGmLY0IM3oUV6iWv--HklLj0HW8nL5EojJv6fW14MPXhWolm6Nje00XWzhWh/exec';
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxF9lbLIj5oNaMbKbXZRINbnzcanItxrCDadwux3lp6w2z7OLWWW2ze_rg1eoLjV5Ms/exec';
       const form = this.$refs.form;
 
       fetch(scriptURL, {method: 'POST', body: sendingData})
