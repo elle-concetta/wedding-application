@@ -5,13 +5,12 @@
         <h2 class="h2">RSVP</h2>
         <h3>Attendance Confirmation</h3>
       </div>
-      <div class="max-w-sm mx-auto alert hidden " role="alert">
+      <div class="max-w-sm mx-auto alert hidden" role="alert">
         <div class="py-3 flex justify-center bg-green-200 rounded-xl text-slate-800">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-               class="w-6 h-6 text-fuchsia-600">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 text-fuchsia-600">
             <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
           </svg>
-          <p> <span class="font-bold pl-2">Thank you!</span> Your message has been sent.</p>
+          <p><span class="font-bold pl-2">Thank you!</span> Your message has been sent.</p>
         </div>
       </div>
       <form @submit.prevent="submitForm" ref="form" name="submit" action="" method="POST">
@@ -33,8 +32,8 @@
           </div>
           <div class="w-full px-4 mb-8">
             <label for="status" class="font-bold text-slate-600">Status</label>
-            <select v-model="formData.status" name="Status" id="status" placeholder="Confirmation" required
-                    class="w-full h-18 bg-slate-200 text-slate-950 p-3 rounded-md focus:outline-none focus:ring-lime-600 focus:ring-1">
+            <select v-model="formData.status" name="Status" id="status" required
+                    class="w-full bg-slate-200 text-slate-950 p-3 rounded-md focus:outline-none focus:ring-lime-600 focus:ring-1">
               <option value="Attend">Attend</option>
               <option value="Absent">Absent</option>
               <option value="Undecided">Undecided</option>
@@ -77,24 +76,23 @@ export default {
     };
   },
   methods: {
-    submitForm() {
+    async submitForm() {
       this.loading = true;
       const scriptURL = 'https://script.google.com/macros/s/AKfycbxF9lbLIj5oNaMbKbXZRINbnzcanItxrCDadwux3lp6w2z7OLWWW2ze_rg1eoLjV5Ms/exec';
       const form = this.$refs.form;
+      const formData = new FormData(form);
 
-      fetch(scriptURL, {method: 'POST', body: sendingData})
-          .then(response => {
-            console.log('Success! Data sent successfully', response);
-            this.loading = false;
-            this.showAlert();
-            this.clearForm();
-            this.toggleButtons();
-          })
-          .catch(error => {
-            console.error('Error!', error.message);
-            this.loading = false;
-            this.toggleButtons();
-          });
+      try {
+        const response = await fetch(scriptURL, { method: 'POST', body: formData });
+        console.log('Success! Data sent successfully', response);
+        this.showAlert();
+        this.clearForm();
+      } catch (error) {
+        console.error('Error!', error.message);
+      } finally {
+        this.loading = false;
+        this.toggleButtons();
+      }
     },
     showAlert() {
       const alert = document.querySelector('.alert');
@@ -117,6 +115,7 @@ export default {
     }
   }
 };
+
 </script>
 
 <style scoped>
