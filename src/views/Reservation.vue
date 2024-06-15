@@ -23,7 +23,7 @@
           </div>
           <div class="w-full px-4 mb-8">
             <label for="name" class="font-bold text-slate-600">Accompanying Invitees</label>
-            <input type="text" v-model="formData.accInvitees" name="AccompanyingInvitees" id="accInvitees" placeholder="Names of Other Invitees on Your Invitation" autocomplete="off" required
+            <input type="text" v-model="formData.accInvitees" name="AccompanyingInvitees" id="accompanyingInvitees" placeholder="Names of Other Invitees on Your Invitation" autocomplete="off" required
                    class="w-full bg-slate-200 text-slate-950 p-3 rounded-md focus:outline-none focus:ring-lime-600 focus:ring-1">
           </div>
           <div class="w-full px-4 mb-8">
