@@ -21,6 +21,17 @@ See [Vue Firebase Authentication](https://learnvue.co/articles/vue-firebase-auth
 npm install
 ```
 
+If any depracations during `npm install`, run the following commands:
+```sh
+# Update all packages to the latest version based on the version ranges specified in package.json
+npm update
+
+# Upgrade all packages to their latest versions, ignoring the version ranges specified in package.json
+npm install -g npm-check-updates
+ncu -u
+npm install
+```
+
 #### *Compile and Reload for Development*
 
 ```sh
@@ -47,6 +58,13 @@ npm run build
 ```sh
 npm run deploy
 ```
+
+#### *Setup Comment Section*
+
+```sh
+npm install --save vue-comment-grid
+```
+
 
 #### *Google Sheets and AppScript*
 ```sh
@@ -82,7 +100,7 @@ function doPost(e) {
 See [Vite Static Deploy Reference](https://vitejs.dev/guide/static-deploy.html).
 
 Create a file called `.gitlab-ci.yml` in the root of your project with the content below. This will build and deploy your site whenever you make changes to your content:
-```
+```sh
 image: node:16.5.0
 pages:
   stage: deploy
@@ -102,15 +120,4 @@ pages:
       - public
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-```
-
-If any depracations during `npm install`, run the following commands:
-```sh
-# Update all packages to the latest version based on the version ranges specified in package.json
-npm update
-
-# Upgrade all packages to their latest versions, ignoring the version ranges specified in package.json
-npm install -g npm-check-updates
-ncu -u
-npm install
 ```
