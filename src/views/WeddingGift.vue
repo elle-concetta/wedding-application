@@ -19,7 +19,7 @@ import { faGift, faFaceSmile } from '@fortawesome/free-solid-svg-icons';
       </div>
       <div class="col">
         <img
-            src="/public/img/floating-qr.png" width="350" alt="qr-code" />
+            src="/src/img/floating-qr.png" width="350" alt="qr-code" />
       </div>
       <div class="col">
         <button

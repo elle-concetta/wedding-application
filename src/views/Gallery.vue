@@ -33,16 +33,16 @@ import { ref, watch } from 'vue';
 
 const mainImage = ref('/public/img/gallery_eng-1.png');
 const images = [
-  '/public/img/gallery_firstdate.jpg',
-  '/public/img/gallery_bday.JPG',
-  '/public/img/gallery_cenotes.png',
-  '/public/img/gallery_cenote2.png',
-  '/public/img/gallery_athens.JPG',
-  '/public/img/gallery_grboat.jpg',
-  '/public/img/gallery_mykonos.JPG',
-  '/public/img/gallery_santorini.JPG',
-  '/public/img/pantheon-italy.JPG',
-  '/public/img/eng-20.png'
+  '/img/gallery_firstdate.jpg',
+  '/img/gallery_bday.JPG',
+  '/img/gallery_cenotes.png',
+  '/img/gallery_cenote2.png',
+  '/img/gallery_athens.JPG',
+  '/img/gallery_grboat.jpg',
+  '/img/gallery_mykonos.JPG',
+  '/img/gallery_santorini.JPG',
+  '/img/pantheon-italy.JPG',
+  '/img/eng-20.png'
 ];
 
 const showImage = (index) => {

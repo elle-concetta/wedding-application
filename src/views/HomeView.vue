@@ -32,7 +32,7 @@ export default {
       <div class="subtitle">The Wedding Of</div>
       <div class="title">Ankit Amin <FontAwesomeIcon :icon="faHeart"/> Elle Fassler</div>
       <div class="subtitle-tgl">November 7th-8th, 2025</div>
-      <div class="text">Clearwater, Florida</div>
+      <div class="text">Florida</div>
       <p class="invitation-text">{{ destination }}</p>
 
         <div class="button-welcomeModel">
@@ -98,7 +98,7 @@ export default {
     overflow: hidden;
     position: fixed;
     background-position: center;
-    background-image: url('public/img/front-cvr.jpg');
+    background-image: url('/img/front-cvr.jpg');
     background-color: rgb(241 128 128 / 80%);
     background-repeat: no-repeat;
     background-size: cover;
