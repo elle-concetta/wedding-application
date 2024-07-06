@@ -98,7 +98,7 @@ export default {
     overflow: hidden;
     position: fixed;
     background-position: center;
-    background-image: url('/img/front-cvr.jpg');
+    background-image: url('/src/img/front-cvr.jpg');
     background-color: rgb(241 128 128 / 80%);
     background-repeat: no-repeat;
     background-size: cover;
