@@ -14,7 +14,7 @@
       <!-- Item 2 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
         <img
-          src="/src/img/eng-30.jpg"
+          src="/src/img/eng-30.png"
           class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
           alt="love-twirl"
         />
@@ -22,7 +22,7 @@
       <!-- Item 3 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
         <img
-          src="/src/img/confirm-bg.jpg"
+          src="/src/img/eng-31.png"
           class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
           alt="blurry-engagement"
         />
@@ -30,7 +30,7 @@
       <!-- Item 4 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
         <img
-          src="/src/img/eng-9.jpg"
+          src="/src/img/eng-9.png"
           class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
           alt="proposal"
         />
@@ -71,6 +71,14 @@
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
         <img
           src="/src/img/eng-38.png"
+          class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+          alt="proposal"
+        />
+        </div>
+      <!-- Item 10 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <img
+          src="/src/img/eng-35.png"
           class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
           alt="proposal"
         />
