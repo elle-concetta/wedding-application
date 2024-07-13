@@ -54,17 +54,6 @@ import InfoAbout from './InfoAbout.vue';
 @import url('https://use.typekit.net/fyp0lzh.css');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Gujarati:wght@100..900&display=swap');
 
-@font-face {
-  font-family: 'Mier A';
-  src: url('src/assets/mier/MierA-Regular.eot');
-  src: local('Mier A Regular'), local('MierA-Regular'),
-  url('src/assets/mier/MierA-Regular.eot?#iefix') format('embedded-opentype'),
-  url('src/assets/mier/MierA-Regular.woff2') format('woff2'),
-  url('src/assets/mier/MierA-Regular.woff') format('woff'),
-  url('src/assets/mier/MierA-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
 
 section {
   display: flex;
@@ -78,13 +67,13 @@ section {
 section, h2 {
   text-align: center;
   font-family: "freight-big-pro", serif !important;
-  font-size: 39px;
+  font-size: 31px;
 }
 
 .fst-italic {
   text-align: center;
   font-family: "Noto Serif Gujarati", serif;
-  font-size: xx-large;
+  font-size: x-large;
   font-weight: 400;
   font-style: normal;
 }

@@ -14,7 +14,7 @@
       <!-- Item 2 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
         <img
-          src="/src/img/eng-30.png"
+          src="/src/img/eng-9.png"
           class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
           alt="love-twirl"
         />
@@ -30,7 +30,7 @@
       <!-- Item 4 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
         <img
-          src="/src/img/eng-9.png"
+          src="/src/img/eng-30.png"
           class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
           alt="proposal"
         />
@@ -46,7 +46,7 @@
        <!-- Item 6 -->
        <div class="hidden duration-700 ease-in-out" data-carousel-item>
         <img
-          src="/src/img/eng-14.png"
+          src="/src/img/eng-35.png"
           class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
           alt="proposal"
         />
@@ -54,7 +54,7 @@
       <!-- Item 7 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
         <img
-          src="/src/img/eng-6.png"
+          src="/src/img/eng-11.png"
           class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
           alt="proposal"
         />
@@ -62,7 +62,7 @@
       <!-- Item 8 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
         <img
-          src="/src/img/eng-11.png"
+          src="/src/img/eng-14.png"
           class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
           alt="proposal"
         />
@@ -78,7 +78,7 @@
       <!-- Item 10 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
         <img
-          src="/src/img/eng-35.png"
+          src="/src/img/eng-6.png"
           class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
           alt="proposal"
         />
