@@ -46,23 +46,27 @@ const redirectToLocation = (location) => {
                     
                 </div>
             </div>
-            <div class="col">
-                <div class="description">
-                  <p>Book Hotel Reservations: Hotel 1, Hotel 2, and Hotel 3</p>
-                </div>
-            </div>
+            
             <div class="col">
              <figure>
                 <figcaption>
-                  <p>If you would like to purchase indian wear for Hindu Ceremony:</p>
-                  <p>Pernia's Pop-up Shop, Kalki Fashion, Aza Fashions, Poshmark, etc.</p>
-                  <p>Women: Saree, Lehenga (Lengha), or Anarkali</p>
-                  <p>Men: Kurtas or Kurta Sets </p>
-                  <p>If you need help, let us know <3</p>
-
+                <p>Book Hotel Reservations: Hotel 1 and Hotel 2</p>  
+                <div class="col">
+                <div class="description">
+                  ...
+                </div>
+            </div>
                   <div class="">
-                    <p>...</p>
+                  <p>Here are some online shops if you would like to purchase indian wear for the Hindu Ceremony:
+                  Pernia's Pop-up Shop, Kalki Fashion, and Aza Fashions. Women can choose from pre-stitched sarees,
+                  lehengas, or anarkalis, and men can choose from kurtas or kurta sets. If you need any help, feel
+                  free to reach out to us <3</p>
                     </div>
+                    <div class="col">
+                <div class="description">
+                  ...
+                </div>
+            </div>
                     <h2 class="h2">We are excited to see you at our wedding!</h2>
                 </figcaption>
              </figure>
@@ -118,7 +122,7 @@ figcaption > p {
 h1 {
   text-align: center;
   font-family: "freight-big-pro", serif !important;
-  font-size: 39px;
+  font-size: 36px;
 }
 
 

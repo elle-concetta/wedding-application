@@ -1,9 +1,15 @@
 <template>
     <section class="card" id="gallery">
         <div class="container">
-            <div class="col ">
-                <h2 class="h2"><i>Our</i> Moments</h2>
-                <p>From our first date, adventurous trips, to our engagement.</p>
+            
+              <h1> <div style="padding-bottom: 10px;">Our <i>Moments</i></div></h1>
+                <div class="col">
+                  <table>
+                    <tr>           
+                    <p>From our first date to our engagement.</p>                        
+                
+                    </tr>
+                    </table>
             </div>
           <div class="col">
             <div class="grid justify-items-center gap-4">
@@ -87,18 +93,12 @@ watch(mainImage, () => {
   font-style: normal;
 }
 
-h2 {
+h1 {
   text-align: center;
   font-family: "freight-big-pro", serif !important;
-  font-size: 39px;
+  font-size: 36px;
 }
 
-h3 {
-  text-align: center;
-  font-family: "Mier A Demi", sans-serif !important;
-  font-style: italic;
-  font-size: x-large;
-}
 
 p {
   text-align: center;

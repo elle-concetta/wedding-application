@@ -136,7 +136,7 @@ svg.svg-inline--fa.fa-heart {
 .bg-name {
   font-family: "freight-big-pro", serif !important;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 27px;
 }
 
 .mpl-description .name-groom {

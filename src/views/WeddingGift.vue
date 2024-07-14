@@ -12,7 +12,7 @@ import { faGift, faFaceSmile } from '@fortawesome/free-solid-svg-icons';
   <section class="card" id="gifts">
     <div class="container">
       <div class="col">
-        <h2 class="h2">Wedding <i>Registry</i></h2>
+        
         <p>
           Our Amazon Wedding Registry below <FontAwesomeIcon :icon="faFaceSmile" class="icon-smile"/>
         </p>
@@ -54,7 +54,7 @@ import { faGift, faFaceSmile } from '@fortawesome/free-solid-svg-icons';
 h2 {
   text-align: center;
   font-family: "freight-big-pro", serif !important;
-  font-size: 39px;
+  font-size: 36px;
 }
 
 p {

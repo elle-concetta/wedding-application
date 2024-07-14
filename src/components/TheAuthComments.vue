@@ -1,7 +1,7 @@
 <template>
   <section class="card">
     <div class="container">
-      <h2><i>Wedding Chat and Greetings</i></h2>
+      <h2><div style="padding-bottom: 20px;"></div>Wedding Chat</h2>
        <!-- Comment and Greetings Form-->
        <div class="py-4">
         <form @submit.prevent="addComment" class="max-w-xl mx-auto">
@@ -385,7 +385,7 @@ async deleteComment(commentId) {
 h2 {
   text-align: center;
   font-family: "freight-big-pro", serif !important;
-  font-size: 39px;
+  font-size: 36px;
 }
 
 label {

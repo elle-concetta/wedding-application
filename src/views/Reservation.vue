@@ -147,7 +147,7 @@ export default {
 h2 {
   text-align: center;
   font-family: "freight-big-pro", serif !important;
-  font-size: 39px;
+  font-size: 36px;
 }
 
 h3 {
