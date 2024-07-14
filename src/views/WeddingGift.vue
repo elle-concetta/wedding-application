@@ -41,15 +41,15 @@ import { faGift, faFaceSmile } from '@fortawesome/free-solid-svg-icons';
 
 @font-face {
   font-family: 'Mier A';
-  src: url('src/assets/mier/MierA-Regular.eot');
-  src: local('Mier A Regular'), local('MierA-Regular'),
-  url('src/assets/mier/MierA-Regular.eot?#iefix') format('embedded-opentype'),
-  url('src/assets/mier/MierA-Regular.woff2') format('woff2'),
-  url('src/assets/mier/MierA-Regular.woff') format('woff'),
-  url('src/assets/mier/MierA-Regular.ttf') format('truetype');
+  src: url('@/assets/mier/MierA-Regular.eot');
+  src: url('@/assets/mier/MierA-Regular.eot?#iefix') format('embedded-opentype'),
+       url('@/assets/mier/MierA-Regular.woff2') format('woff2'),
+       url('@/assets/mier/MierA-Regular.woff') format('woff'),
+       url('@/assets/mier/MierA-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
+
 
 h2 {
   text-align: center;

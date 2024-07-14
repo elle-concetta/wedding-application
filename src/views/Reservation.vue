@@ -123,24 +123,23 @@ export default {
 
 @font-face {
   font-family: 'Mier A';
-  src: url('src/assets/mier/MierA-Regular.eot');
-  src: local('Mier A Regular'), local('MierA-Regular'),
-  url('src/assets/mier/MierA-Regular.eot?#iefix') format('embedded-opentype'),
-  url('src/assets/mier/MierA-Regular.woff2') format('woff2'),
-  url('src/assets/mier/MierA-Regular.woff') format('woff'),
-  url('src/assets/mier/MierA-Regular.ttf') format('truetype');
+  src: url('@/assets/mier/MierA-Regular.eot');
+  src: url('@/assets/mier/MierA-Regular.eot?#iefix') format('embedded-opentype'),
+       url('@/assets/mier/MierA-Regular.woff2') format('woff2'),
+       url('@/assets/mier/MierA-Regular.woff') format('woff'),
+       url('@/assets/mier/MierA-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
+
 @font-face {
   font-family: 'Mier A Demi';
-  src: url('src/assets/mier/MierA-DemiBold.eot');
-  src: local('Mier A DemiBold'), local('MierA-DemiBold'),
-  url('src/assets/mier/MierA-DemiBold.eot?#iefix') format('embedded-opentype'),
-  url('src/assets/mier/MierA-DemiBold.woff2') format('woff2'),
-  url('src/assets/mier/MierA-DemiBold.woff') format('woff'),
-  url('src/assets/mier/MierA-DemiBold.ttf') format('truetype');
+  src: url('@/assets/mier/MierA-DemiBold.eot');
+  src: url('@/assets/mier/MierA-DemiBold.eot?#iefix') format('embedded-opentype'),
+       url('@/assets/mier/MierA-DemiBold.woff2') format('woff2'),
+       url('@/assets/mier/MierA-DemiBold.woff') format('woff'),
+       url('@/assets/mier/MierA-DemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }

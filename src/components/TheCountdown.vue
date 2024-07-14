@@ -54,17 +54,6 @@
 
 <style scoped>
 
-@font-face {
-  font-family: 'Mier A';
-  src: url('src/assets/mier/MierA-Regular.eot');
-  src: local('Mier A Regular'), local('MierA-Regular'),
-  url('src/assets/mier/MierA-Regular.eot?#iefix') format('embedded-opentype'),
-  url('src/assets/mier/MierA-Regular.woff2') format('woff2'),
-  url('src/assets/mier/MierA-Regular.woff') format('woff'),
-  url('src/assets/mier/MierA-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
 
 .countdown-container {
   display: flex;
