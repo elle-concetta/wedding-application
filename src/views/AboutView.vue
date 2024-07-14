@@ -9,7 +9,7 @@ import InfoAbout from './InfoAbout.vue';
       <div class="container">
         <div class="row">
           <div class="col mt-3">
-            <h2 class="h2">The Wedding of Ankit and Elle</h2>
+            <h2 class="h2">The Wedding of Ankit & Elle</h2>
           </div>
         </div>
         <div class="row ">
@@ -67,13 +67,13 @@ section {
 section, h2 {
   text-align: center;
   font-family: "freight-big-pro", serif !important;
-  font-size: 31px;
+  font-size: 33px;
 }
 
 .fst-italic {
   text-align: center;
   font-family: "Noto Serif Gujarati", serif;
-  font-size: x-large;
+  font-size: 29px;
   font-weight: 400;
   font-style: normal;
 }
@@ -160,13 +160,6 @@ svg.svg-inline--fa.fa-heart {
 
   .mpl-description {
     order: -1;
-  }
-
-  .bg-name {
-    font-family: "freight-big-pro", serif !important;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 20px;
   }
 
   .mpl-description .name-groom, .mpw-description .name-bride {
