@@ -1,55 +1,48 @@
 <template>
-    <section class="card" id="gallery">
-        <div class="container">
-            
-              <h1> <div style="padding-bottom: 10px;">Our <i>Moments</i></div></h1>
-                <div class="col">
-                  <table>
-                    <tr>           
-                    <p>From our first date to our engagement.</p>                        
-                
-                    </tr>
-                    </table>
-            </div>
+  <section class="card" id="gallery">
+      <div class="container">
+          <div class="col ">
+              <h1 class="h1">Our Moments</h1>
+              <p>From our first date to our engagement.</p>
+          </div>
           <div class="col">
-            <div class="grid justify-items-center gap-4">
-              <div class="main-image-container">
-                <img
-                    class="h-auto max-w-full rounded-lg"
-                    :src="mainImage"
-                    alt=""
-                    :style="{ animation: slideAnimation }">
-              </div>
-              <div class="grid grid-cols-5 gap-4">
-                <div v-for="(image, index) in images" :key="index">
-                  <img
+              <div class="grid justify-items-center gap-4">
+                  <div class="main-image-container">
+                      <img
+                          class="h-auto max-w-full rounded-lg"
+                          :src="mainImage"
+                          alt=""
+                          :style="{ animation: slideAnimation }">
+                  </div>                
+                  <div class="grid grid-cols-5 gap-4">
+                  <div v-for="(image, index) in images" :key="index">
+                      <img
                       class="h-auto max-w-full rounded-lg cursor-pointer"
                       :src="image"
                       alt=""
                       @click="showImage(index)">
-                </div>
+                  </div>
+                  </div>
               </div>
-            </div>
           </div>
-        </div>
-    </section>
+      </div>
+  </section>
 </template>
 <script setup lang="ts">
 import { ref, watch } from 'vue';
-
-const mainImage = ref('/img/gallery_beginning.JPG');
+const mainImage = ref('src/img/gallery_bday.JPG');
 const images = [
-  '/img/gallery_firstdate.jpg',
-  '/img/gallery_bday.JPG',
-  '/img/gallery_cenotes.png',
-  '/img/gallery_cenote2.png',
-  '/img/gallery_athens.JPG',
-  '/img/gallery_grboat.jpg',
-  '/img/gallery_mykonos.JPG',
-  '/img/gallery_santorini.JPG',
-  '/img/pantheon-italy.JPG',
-  '/img/eng-20.png'
-];
+  'src/img/gallery_firstdate.jpg',
+  'src/img/gallery_bday.JPG',
+  'src/img/gallery_cenotes.png',
+  'src/img/gallery_cenote2.png',
+  'src/img/gallery_athens.JPG',
+  'src/img/gallery_grboat.jpg',
+  'src/img/gallery_mykonos.JPG',
+  'src/img/gallery_santorini.JPG',
+  'src/img/pantheon-italy.JPG',
+  'src/img/eng-20.png'
+  ];
 
 const showImage = (index) => {
   mainImage.value = images[index];
