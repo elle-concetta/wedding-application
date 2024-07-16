@@ -55,13 +55,6 @@ npm run build
 npm run deploy
 ```
 
-#### *Setup Comment Section*
-
-```sh
-npm install --save vue-comment-grid
-```
-
-
 #### *Google Sheets and AppScript*
 ```sh
 function doPost(e) {
