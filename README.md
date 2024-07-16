@@ -43,10 +43,6 @@ npm run dev
 npm install firebase
 ```
 
-```sh
-firebase login
-```
-
 #### *Compile and Minify for Production*
 
 ```sh
@@ -99,25 +95,3 @@ function doPost(e) {
 
 See [Vite Static Deploy Reference](https://vitejs.dev/guide/static-deploy.html).
 
-Create a file called `.gitlab-ci.yml` in the root of your project with the content below. This will build and deploy your site whenever you make changes to your content:
-```sh
-image: node:16.5.0
-pages:
-  stage: deploy
-  cache:
-    key:
-      files:
-        - package-lock.json
-      prefix: npm
-    paths:
-      - node_modules/
-  script:
-    - npm install
-    - npm run build
-    - cp -a dist/. public/
-  artifacts:
-    paths:
-      - public
-  rules:
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-```
