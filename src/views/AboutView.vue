@@ -41,8 +41,8 @@ import InfoAbout from './InfoAbout.vue';
           </div>
           <div class="mpw-description">
             <h1 class="bg-name name-bride">Elizabeth Concetta Fassler</h1>
-            <p class="name-bride">Daughter of Bernie Fassler & Amy Eppers</p>
-            <p class="name-bride">Then, on March 9, 2024 in the enchanting setting of Lake Como, Italy at Villa Olmo, Ankit proposed.</p>
+            <p class="name-bride">Daughter of Amy Eppers & Andrew (Bernie) Fassler </p>
+            <p class="name-bride">Then, on March 9, 2024 in Lake Como, Italy at Villa Olmo, Ankit proposed.</p>
           </div>
         </div>
       </div>
